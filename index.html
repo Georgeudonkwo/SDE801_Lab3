@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="en"/>
+        <meta name="viewport" content="width=device-width;initial-scale=1"/>
+        <meta name="description" content="This application perform counter operations
+        on whole numbers (integers). these operations are Increment, Decrement,
+        and Reset"/>
+        <meta name="author" content="George Udonkwo"/>
+        <meta name="keywords" content="counter,increment,decrement,reset,integer"/>
+        <link rel="stylesheet" href="/style.css"/>
+
+    </head>
+    <body>
+        <h1>A Simple Counter Application</h1>
+        <div>
+            <p style="font-size: 150%; font-weight: bold;">
+                Counter:
+                <span id="sp">
+                    0
+                </span>
+            </p>
+        </div>
+        <div class="row1">
+            <button class="btn1" onclick="increment('sp')">Increment</button>
+            <button class="btn2" onclick="decrement('sp')">Decrement</button>
+            <button class="btn3" onclick="reset('sp')">Reset</button>
+
+        </div>
+        <script src="/behavior.js" type="text/javascript"></script>
+    </body>
+</html>
